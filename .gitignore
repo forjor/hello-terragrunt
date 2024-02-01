@@ -33,3 +33,5 @@ override.tf.json
 .terraformrc
 terraform.rc
 *.terragrunt-cache
+
+backends/**/backend.tf

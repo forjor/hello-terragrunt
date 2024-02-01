@@ -75,5 +75,8 @@
         "type=bind,source=${localEnv:HOME}/.azure,target=/home/vscode/.azure,consistency=cached",
         "type=bind,source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,readonly"
     ],
-    "initializeCommand": "mkdir -p ~/{.aws,.ssh,.azure}"
+    "initializeCommand": "mkdir -p ~/{.aws,.ssh,.azure}",
+    "remoteEnv": {
+        "HOST_USER": "${localEnv:USER}"
+    }
 }
