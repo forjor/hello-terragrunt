@@ -35,3 +35,6 @@ terraform.rc
 *.terragrunt-cache
 
 backends/**/backend.tf
+
+# Locking dependencies is a best practice in live infrastructure but can clutter up a demonstration repo.
+**/.terraform.lock.hcl/*
