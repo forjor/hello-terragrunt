@@ -20,6 +20,8 @@ The content in this repository makes use of technologies including:
 
 [Section 3](docs/section3.md) - Using hierarchical directory structure to organize content
 
+[Section 4](docs/section4.md) - Triggering external interactions through hooks and duplicating environments quickly
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## References
